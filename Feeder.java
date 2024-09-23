@@ -24,5 +24,14 @@ public class Feeder {
     {
         return 0;
     }
-
+    public int getCurrentFood(){
+        return currentFood;
+    }
+    public Feeder(int c){
+        currentFood = c; 
+    }
+    public Feeder() {
+    } 
+    System.out.println(Math.random());   
 }
+
